@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #F55A5A;
+    height: 55px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-globe {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    padding-left: 7px;
+    padding-top: 4px;
+
+    color: #FFFFFF;
+}
+
+.card {
+    display: flex;
+    width: 470px;
+    height: 168px;
+    left: 24px;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 200px;
+}
+
+.locations {
+    position: absolute;
+    width: 470px;
+    height: 252px;
+    left: 24px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location-image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.location-info {
+    position: absolute;
+    width: 326px;
+    left: 168px;
+}
+
+.location-name {   
+    width: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+    padding-left: 30px;
+
+    color: #2B283A;
+    padding-left: 10px;
+}
+
+.location-google {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+        position: absolute;
+
+
+    color: #918E9B;
+    padding-left: 95px;
+    padding-top: 10px;
+}
+
+.location-pin {
+    width: 7px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.location-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.location-date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.location-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    word-wrap: break-word; 
+    /* or 15px */
+    color: #2B283A;
+}
+
+.location-maps {
+    display: flex;
+    align-content: center;
+    width: 200px;
+    height: 14px;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    border: 1px solid #F5F5F5;
+}
